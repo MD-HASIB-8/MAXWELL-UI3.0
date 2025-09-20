@@ -8,11 +8,21 @@
 body{
     white-space: nowrap;
     overflow-x: hidden;
+    margin: 10px 50px;
 }
 input{
-    border-radius: 20px;
-    padding: 8px 120px 8px 40px;
     border: 1px solid rgba(0, 0, 0, 0.639);
+    padding: 8px 120px 8px 40px;
+    border-radius: 20px;
+}
+button{
+    background: greenyellow;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+}
+p{
+    opacity: 60%;
 }
 form::before{
     background: url("./assets/icons8-user-96.png") no-repeat center/contain;
@@ -23,4 +33,14 @@ form::before{
     z-index: 1;
     left: 4%;
     top: 6px;
+}
+.signup,.tow{
+    align-items: center;
+    display: flex;
+}
+.foot1 ,.foot2,.foot3{
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    padding: 30px 0px;
+    display: flex;
 }
