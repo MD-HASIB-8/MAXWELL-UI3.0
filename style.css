@@ -1,0 +1,26 @@
+*{
+    font-family:sans-serif;
+    box-sizing: border-box;
+    transition: .2s ease;
+    position: relative;
+    margin: 0;
+}
+body{
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+input{
+    border-radius: 20px;
+    padding: 8px 120px 8px 40px;
+    border: 1px solid rgba(0, 0, 0, 0.639);
+}
+form::before{
+    background: url("./assets/icons8-user-96.png") no-repeat center/contain;
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    content:"";
+    z-index: 1;
+    left: 4%;
+    top: 6px;
+}
